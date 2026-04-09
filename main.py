@@ -17,7 +17,7 @@ def analizar_usuarios(usuarios):
                     autorizado.append(usuario)
                     total_de_autorizado += 1
             else:
-                        bloqueado.append(usuario)
+                    bloqueado.append(usuario)
   
     return autorizado, bloqueado, sem_idade, total_de_autorizado, total_sem_idade
 
