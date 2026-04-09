@@ -12,10 +12,8 @@ def analizar_usuarios(usuarios):
         if idade is None:
             sem_idade.append(usuario)
             total_sem_idade += 1
-       
-        
-        else:
-            if idade >= 18:
+    
+            elif idade >= 18:
                     autorizado.append(usuario)
                     total_de_autorizado += 1
             else:
